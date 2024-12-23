@@ -1,0 +1,52 @@
+body {
+	font-family: "Host Grotesk";
+}
+
+h1 {
+	display:table;
+	margin: 0 auto;
+	color: orange;
+}
+
+h2 {
+	color: orange;
+}
+
+div {
+	display:table;
+	margin: 0 auto;
+}
+
+.textbox {
+	display: flex;
+	padding: 5%;
+	margin-right: 20%;
+	margin-left: 20%;
+	height:60px;
+	margin-bottom: 5%;
+
+}
+
+.writing {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 40%;
+}
+.image {
+	width: 60%;
+	padding:10px;
+}
+
+img {
+	width: 100%;
+	padding: 15px;
+}
+
+.mapbox {
+
+}
+
+.map {
+
+}
