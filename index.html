@@ -1,7 +1,6 @@
 <!doctype html>
 
 
-
 <html> 
 <head>
 <link rel="stylesheet" type="text/css" href="styles.css"> 
@@ -11,40 +10,141 @@
 </head>
 
 <body>
-<div>
+<div class="page">
 	<div class="header">
-		<h1> HEADLINE </h1>
-		<div class="image">
-			<!-- put image here -->	
-		</div>
+		<h1> Born in the USA - and living somewhere else in the USA </h1>
+		<h2 class="byline">Internal migration patterns in America </h2>
 		<h2 class="byline">Rosie Thomas</h2>
 		<h3 class="date">21 December 2024</h2>
 
+		<figure class="thingy">
+		<img src="images/highway2.JPG">
+		<figcaption>One third of Americans live outside their state. Where do they move? Photo Rosie Thomas </figcaption>
+		</figure>
 	</div>
 
+
+
 	<div class="textbox">
+		<h2>Where Do People Move?</h2>
 		<div class="writing" >
-				<h2>subheading</h2>
-				<p>text</p>
+				<p>The US is known for attracting high levels of immigration, and people in search of the "American Dream". Out of a population of 340 million, 51 million people currently living in the country were born somewhere else in the world. 
+				</p>
+				<p>
+				 However, the country also experiences high levels of internal migration, as people move for education, job opportunities, and new lives in other parts of the country.
+				</p>
+				<p>
+				Almost 1/3 of all people born in the United States live somewhere other than their birth state. 
+				</p>
+				<p>
+				So, which state are you most likely to leave?
+				</p>
 		</div>
 	</div>
 
-	<div class="mapbox">
-		<div class="map">
-				<!-- put map here  -->
+
+	<div class="mapbox">	
+			<div class="map" style="min-height:560px" id="datawrapper-vis-qiSaC"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/qiSaC/embed.js" charset="utf-8" data-target="#datawrapper-vis-qiSaC"></script><noscript><img src="https://datawrapper.dwcdn.net/qiSaC/full.png" alt="This chart shows the percentage of people born in each state who were living in another state in 2023" /></noscript></div>
+	</div>
+
+
+<div class="textbox">
+		<h2>Moving from the centre </h2>
+
+		<div class="writing" >
+				<p>
+				From the above graph, we see that the most common states to move away from are Wyoming and North Dakota; in both states, more than half of the people who were born there are now living somewhere else. 
+				</p>
+				
+				<p>
+
+					Something here
+				</p>
 		</div>
 	</div>
+	
+
+	<div class="thingy">
+		<figure>
+			<img src="images/texas.JPG">
+			<figcaption>Texas is one of the most popular states for internal moves, after Florida. Photo: Rosie Thomas </figcaption>
+		</figure>
+	</div>
+
+<div class="textbox">
+		<h2>Heading to the edge </h2>
+
+		<div class="writing" >
+				<p>
+				Where do people end up, if they do move? The below chart shows the states that people who move are most likely to move to.</p>
+
+				<p> If all inter-state moves were equally attractive, then each of the 50 states would recieve exactly 2% of moves. We can see that there is actually a wide variation in the distribution of moves from one state to another across the US.</p>
+
+				<p>
+				Texas has one of the lowest rates of people moving away after being born there, at 18%. Below, we see that it also receives a relatively high proportion of all internal movers, 7.56% of movers arriving in the state. 
+				</p>
+
+				<p>
+				Well-known as a "snowbird" retirement location, Florida recieves the highest amount of internal migration; more than 10% of people who live outside their birth state now live in Florida. 
+				</p>
+
+				<p>We also see that California receives the third-highest percentage of total moves, with almost 6 million people chosing the state as their residence. 
+				</p>
+				
+		</div>
+	</div>
+	
+	<div class="mapbox">
+
+
+			<div style="min-height:560px" id="datawrapper-vis-Na6sO"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/Na6sO/embed.js" charset="utf-8" data-target="#datawrapper-vis-Na6sO"></script><noscript><img src="https://datawrapper.dwcdn.net/Na6sO/full.png" alt="This chart shows where people who were living outside of their birth states in 2023 had moved to." /></noscript></div>
+
+
 	<div class="textbox">
-		<div class="writing">
-				<h2>subheading</h2>
+		<h2>Overall Patterns </h2>
+		<div class="writing" >
+				<p>
+				How do these patterns balance out overall? 
+				</p>
+				<p>
+				Some states seem to have high proportions of people leaving, and also receive a smaller percentage of internal migrants. However, for states with small populations to start with, these numbers might actually not mean that the population is decreasing. 
+				</p>
+				<p>
+				A state that seems popular as a destination might actually be losing its native residents at the same time. So, I calculated an "attraction index" for each state, as follows: 
+				</p>
+				<p>
+				Attraction Index = (population gain as a % of the population) /
+				(population decrease as a % of all births in the state)
+				</p>
 
-				<p>text</p>
+				<p> An index of 1, or close to 1, is "stasis", meaning that the loss and gain in population are roughly similar. The state is attracting enough people to compensate for the loss of in-state residents. </p>
+
+				<p>
+					An index above 1 (states in green) indicates the degree to which the population of the state has been increased by receiving inter-state movers. 
+					</p>
+					<p>
+					A lower index (states in pink) means that the population has been reduced by leaving after being born there. The closer to 0 the index, the higher the degree of this reduction. 
+				</p>
+
+				
 		</div>
+		
 	</div>
-	<div class="mapbox">
-		<div class="map">
+			<div style="min-height:560px" id="datawrapper-vis-qjOUB"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/qjOUB/embed.js" charset="utf-8" data-target="#datawrapper-vis-qjOUB"></script><noscript><img src="https://datawrapper.dwcdn.net/qjOUB/full.png" alt="Dark pink states show places where people were more likely to leave, and dark green shows the states that more people had moved to" /></noscript></div>
+	</div>
+
+
+	<div class="textbox">
+		<h2>A more complicated picture </h2>
+		<div class="writing" >
+			
+				<p>
+				We see that, despite people born in Wyoming being most likely to leave, the number of people moving there actually seems to balance that out. It has an attraction index slightly above 1. </p>
+
+				<p>On the flip side, California - despite receiving the third-highest number of inter-state moves - actually loses more people who were born there.</p>
+				
 		</div>
-	</div>
+
 
 </div>
 
